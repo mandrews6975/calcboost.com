@@ -1,0 +1,52 @@
+body,
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+.hero-header {
+	min-height: 600px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.hero-header-title {
+	max-width: 500px;
+	padding-bottom: 25px;
+}
+
+.hero-header-title-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-ui {
+	padding-bottom: 25px;
+}
+
+.gp-button {
+	height: 80px;
+}
+
+.overview-pane {
+	height: 500px;
+	background-color: hsl(0, 0%, 13%);
+	-webkit-transform: skewY(2.5deg);
+	-moz-transform: skewY(2.5deg);
+	-ms-transform: skewY(2.5deg);
+	-o-transform: skewY(2.5deg);
+	transform: skewY(2.5deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.overview-div {
+	-webkit-transform: skewY(-2.5deg);
+	-moz-transform: skewY(-2.5deg);
+	-ms-transform: skewY(-2.5deg);
+	-o-transform: skewY(-2.5deg);
+	transform: skewY(-2.5deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}

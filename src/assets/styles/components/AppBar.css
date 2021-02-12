@@ -1,0 +1,46 @@
+.app-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: hsl(0, 0%, 98%);
+}
+
+.tool-bar {
+	max-width: 1200px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.icon {
+	height: 36px;
+	margin-right: 16px;
+	border-radius: 18px;
+	box-shadow: 0 2px 1px 0 hsla(0, 0%, 0%, 0.3);
+}
+
+.icon-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.app-bar-menu-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.app-bar-list {
+	background-color: hsl(0, 0%, 98%);
+	box-shadow: 0 3px 3px 0 hsla(0, 0%, 0%, 0.3);
+}

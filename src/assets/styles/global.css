@@ -1,0 +1,10 @@
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+
+.content-width {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding-left: 16px;
+	padding-right: 16px;
+}

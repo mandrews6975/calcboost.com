@@ -1,0 +1,25 @@
+{
+	"short_name": "CalcBoost",
+	"name": "Official website of the CalcBoost app.",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "512x512, 256x256, 128x128",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "logo192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "logo512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "hsl(0, 0%, 98%)",
+	"background_color": "hsl(0, 0%, 98%)"
+}
